@@ -25,11 +25,11 @@ var severityLevels = {
     code: 2
   },
   ERROR: {
-    aliases: ['error', 'err'],
+    aliases: ['error', 'err', 'e'],
     code: 3
   },
   WARNING: {
-    aliases: ['warning', 'warn'],
+    aliases: ['warning', 'warn', 'w'],
     code: 4
   },
   NOTICE: {
@@ -37,11 +37,11 @@ var severityLevels = {
     code: 5
   },
   INFORMATIONAL: {
-    aliases: ['informational', 'info'],
+    aliases: ['informational', 'info', 'i'],
     code: 6
   },
   DEBUG: {
-    aliases: ['debug'],
+    aliases: ['debug', 'd'],
     code: 7
   }
 };
